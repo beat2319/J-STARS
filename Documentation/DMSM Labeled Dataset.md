@@ -1,0 +1,28 @@
+
+- This Thesis by Nai'a Odachi focuses on using High Resolution Satellite Data to detect individual infected crowns on the East Side of the Big Island
+	- ![[Odachi_HighResolutionSatillite.pdf#page=34&rect=138,107,467,411&color=yellow|Odachi_HighResolutionSatilliteImageryanAlternativeMethodfortheDetectionandMonitoringofRapidOhiaDeathinHawaii, p.34]]
+	- HighResolution2022 - Odachi
+- Canopy color change with disease progression 
+	- Our labeled dataset resolution is <5cm
+	- ![[Odachi_HighResolutionSatillite.pdf#page=13&rect=74,392,544,622&color=yellow|Odachi_HighResolutionSatilliteImageryanAlternativeMethodfortheDetectionandMonitoringofRapidOhiaDeathinHawaii, p.13]]
+	- HighResolution2022 - Odachi
+- The detection polygon labels are hand drawn on a tablet by trained professions.
+	- "Areas with $\geq$ 10 suspect trees would be outlined using a freeform polygon..."
+	- "There was no specified rule regarding how far digitized polygons were from target trees, just that high density mortality areas would be included to the best of analysts’ ability."
+	- "Although aerial sketch surveys are invaluable to forest health monitoring, human error can cause high variability in data collection" 
+	- ![[Odachi_HighResolutionSatillite.pdf#page=36&rect=70,205,541,508|Odachi_HighResolutionSatilliteImageryanAlternativeMethodfortheDetectionandMonitoringofRapidOhiaDeathinHawaii, p.36]]
+		- HighResolution2022 - Odachi
+		- look into corrections at larger buffers
+-  The updated study area for our labels, a 1 mile buffer around the [flightlines](https://services1.arcgis.com/x4h61KaW16vFs7PM/ArcGIS/rest/services/Flightlines_WFL1/FeatureServer/layers)
+	- "Hawai‘i Island surveyors are trained to map mortality within one mile out from the helicopter, but this could extend up to two miles depending on visibility and landmark knowledge."
+	- ![[Odachi_HighResolutionSatillite.pdf#page=37&rect=88,356,514,646|Odachi_HighResolutionSatilliteImageryanAlternativeMethodfortheDetectionandMonitoringofRapidOhiaDeathinHawaii, p.37]]
+		- HighResolution2022 - Odachi
+		- look into corrections at larger buffers distortions, as it goes out it is less accurate
+- Aggregation of mortality severity 
+	- Single points (damage point) should be taken with a grain of salt unless there is confirmed mortality
+		- field collected and qPCR test taken 
+	- "DMSM data was not filtered by mortality severity", since it would limit dataset size
+		- we could still have a large dataset with semantic segmentation 
+	- ![[Odachi_HighResolutionSatillite.pdf#page=39&rect=52,426,566,754&color=yellow|Odachi_HighResolutionSatilliteImageryanAlternativeMethodfortheDetectionandMonitoringofRapidOhiaDeathinHawaii, p.39]]
+		- HighResolution2022 - Odachi
+
