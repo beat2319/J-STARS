@@ -1,0 +1,36 @@
+
+- Sentinel-2 (10m ground resolution)
+	- "Although the revisit period of every five days for Sentinel-2 imagery makes it useful to detect new mortality, coarse spatial resolution makes detection of changes in individual pixels associated with tree crowns difficult to identify for rapid detection (Leatherman et al., 2023)."
+	- ![[Odachi_HighResolutionSatillite.pdf#page=16&rect=104,364,543,728&color=yellow|Odachi_HighResolutionSatilliteImageryanAlternativeMethodfortheDetectionandMonitoringofRapidOhiaDeathinHawaii, p.16]]
+		- HighResolution2022 - Odachi
+- Sentinel-1 (10m ground resolution)
+	- Temporal Resolution
+		- 7 day revisit period
+	- **Plotted in 10 x 10 chip** 
+	- ![[Pasted image 20260325112112.png]]
+		-  Multi-Modal2025 - ONeil
+	- **Plotted in 100 x 100 chip** 
+	- ![[image (4).png]]
+		-  Multi-Modal2025 - ONeil
+	- **Distribution of Decible Reflectance**
+	- ![[image (2).png]]
+		- Multi-Modal2025 - ONeil
+- Vivid Standard Orthoimagery (.5 m/50 cm ground resolution)
+	- Temporal Resolution
+		-  304 out of 363 tiles were collected in 2019-2020. The majority of the tiles from 2014-2016 are for an area in eastern Kauai
+	- [Vivid 2020 Satellite Imagery](https://geodata.hawaii.gov/arcgis/rest/services/SoH_Imagery/Vivid_2020/ImageServer/exportImage?bbox=-1.78752576867E7,2142752.2554985015,-1.722951767174683E7,2550496.340500001)
+-  Capella Space X-band SAR
+	- Temporal Resolution
+		- up to 50 scenes a year
+	- [IEEE OpenData Challenge 2026](https://stacindex.org/catalogs/capella-space-open-data#/6QUH7kZBffZNEnYuZuzZWv8D3vWA4TEeZvXZ5pubg4QY1ZAgGDY8dhJcDDxedMvN8d1Dwb?ip=10&t=2) 
+		- ![[Capella Space X-Band Sar.png]]
+	- [OpenData](https://radiantearth.github.io/stac-browser/#/external/capella-open-data.s3.us-west-2.amazonaws.com/stac/catalog.json?.language=en)
+- figure out the years and if labels exist
+	- download the dataset and provide analysis 
+- TerraSARX
+	- 3x3 M resolution
+	- StripMap Mode
+	- Orbit 008
+		- ![[MAP_PLOT_008.png]]
+	- Orbit 009
+		- ![[MAP_PLOT_007.png]]

@@ -1,0 +1,36 @@
+## Questions
+- human error can cause high variability in dataset, main issue is inconsistency against surveyors 
+	- would an approach be to train a model on each users labels?
+	- **Dees whan (main guy)**
+- is there a dataset of fenced and unfenced area over hawaii?
+	- **ask brian tucker for fenceline dataset**
+	- **publication pending review (healing after repaired fence line) time aspect** 
+- Has there been any new approaches to the separation of ROD and detection error (non-ROD)?
+	- **no signature to separate, everything done through field visit qpr testing**
+	- **percentage site specific, between detections and non detect (undetected)**
+	- **what percentage of trees are abled to get sampled, every 1000 maybe**
+	- **include ohia tree layers, these areas are ohia trees (error in single tree species, carbon assement (ohia and mixed ohia foresr), meg sealy (greg asner) labeled ohia layer mask)**
+- Why was DMSM identified mortality not filtered, I did the same method but just curious as to why?
+	- alot of error in human estimation, comparison to greg asner
+- Could I have access to her dataset as well?
+- Effects of DMSM flight surveys on training
+	- Seems to only focus more on unknown areas after ROD has been confirmed as widespread, how did this effect your training approach?
+	- Does this mean that detections areas are always growing even if not labeled?
+- I can put more time into this research if she does not know
+	- I was a bit confused on how the polygons were made is it just a count of effected trees, I understand the user variety and that is like just an area dense with detections. But is there more than that?
+	- national data collection, mainly focused on ROD literally have tablet in hand, points are with a grain of salt 
+- Detections decreasing except on the east side of the island, is this after the high res detections as well and due to the focus on unknown areas?
+	- include the mile buffer 
+- Can we get your labeled data please?
+- How does the east side of hawaii compare to other islands in  terms of generalizability? 
+	- 3 to 4 months red to brown peak then become skeleteon, pulse of mortialty look into that (no rhyme or reason, big wind storm events maybe)
+	- 2010 if a specific trees
+	- fine branches start falling off
+	- mark hues, looking at how long it takes for downed ohia trees to die out
+		- temp and humidity 
+		- postive confirmed detections, look at that for the time series decay model changes 
+		- some of the trees can be large 
+		- time series water signal
+			- similar type of decay of each time for ROD and non Detect
+		- pine bark beetle research 
+- How was the DMSM survey used to help label detections in training?

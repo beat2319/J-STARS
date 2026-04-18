@@ -1,0 +1,42 @@
+- Think about the fact that location encoders may be out of distribution or not
+	- geoclip (street view image)
+- complicit (temp and precipiation)
+	- km resolution (would need to be downscaled or just mapped correctly if used)
+- location encoders with other prop
+- bayesian prior 
+	- joint probability distribution, weird but all it is classification of distribution
+	- fuck probability theory, just look into distribution 
+		- do not get lost into the weeds 
+- Gaussian neural process 
+	- deep learning version of the gaussian process 
+- pre-trained vision encoder and location encoder jointly 
+	- how to get embeddings if trained jointly
+	- label based on image is prior 
+	- label based on location is posterior
+	- ![[1906.05272v3.pdf#page=3&rect=63,151,294,237|1906.05272v3, p.3]]
+	- training location encoder and image encoder separately, maybe just joint at test time 
+		- how likely do we see that representation there given the prior 
+- Inaturalist
+	- species distribution using  neural implicit represention
+		- map on google earth engine 
+	- living database 
+	- Limitions of Umap (shows structure that does not exist)
+- PMI
+	- pass in earth observations (encode satellite images)
+	- pass in lat lon, temp etc (decode that)
+		- location encoder is learning (non frozen)
+		- given 100 stations (sample 1600 random points inside lat, lon)
+	- current fusion 
+		- concat 
+		- could be contrastive learning instead 
+	- U-Map of the United States (Location-Time Embedding)
+		- U-Map 1 and 2
+		- this found spatial consistency 
+- Uniform satellite data (self-supervised)
+	- teacher is frozen encoder 
+		- series of augmentation of satellite images 
+		- recreate the satellite embedding from frozen using the geospatial encoder 
+- Random Fourier Feature 
+	- Increases resolution, great at using location without caring about the location to improve location
+	- ![[2006.10739v1.pdf#page=2&rect=98,551,504,738|2006.10739v1, p.2]]
+	- PMI representing the sinusoidal encoding using random fourier features  
