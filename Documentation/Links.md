@@ -1,3 +1,4 @@
+- https://services1.arcgis.com/gGHDlz6USftL5Pau/ArcGIS/rest/services/Rapid_Ohia_Death_Survey_HI/FeatureServer
 - https://services1.arcgis.com/x4h61KaW16vFs7PM/ArcGIS/rest/services/Flightlines_WFL1/FeatureServer/layers
 - https://www.arcgis.com/home/search.html?restrict=false&sortField=relevance&sortOrder=desc&searchTerm=owner%3A%22dlnr_eyuen%22#content
 - https://www.arcgis.com/home/user.html?user=dlnr_dmatsuwaki
