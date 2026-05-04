@@ -417,7 +417,7 @@ J-STARS/
 4. **USDA** (2025). "Digital Mobile Sketch Mapping (DMSM)."
 5. **NASA** (2021). "Synthetic Aperture Radar | NASA Earthdata." NASA Earthdata.
 6. **Ronneberger, O., Fischer, P., and Brox, T.** (2015). "U-Net: Convolutional Networks for Biomedical Image Segmentation." arXiv.org.
-7. **Shi, X. et al.** (Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting."
+7. **Shi, X. et al.** (2015). "Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting." arXiv.org
 8. **Papadomanolaki, M. et al.** (2019). "Detecting Urban Changes with Recurrent Neural Networks from Multitemporal Sentinel-2 Data." arXiv.org.
 
 ### Template and Model Sources
